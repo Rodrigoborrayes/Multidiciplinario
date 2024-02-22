@@ -1,0 +1,46 @@
+
+
+.header{
+    display: flex;
+    background-color: var(--verdeNav);
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    header{
+        flex-direction: row;
+    }
+
+}
+
+.Banner_Container {
+    width: 100%;
+    background-image: url("https://fumigacionesprofesionales.com.mx/wp-content/uploads/2023/05/banner-hero-home-fumigadores-profesionales-scaled.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    
+}
+
+.Banner_img {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.span{
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+
+}
